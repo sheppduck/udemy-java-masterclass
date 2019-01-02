@@ -35,10 +35,10 @@ public class Main {
         // to 50000 + 10 times the sum of my byte, short, and int in challenge
 
         // Byte
-        byte myChallengeByte = 103;
-        short myChallengeShortValue = 31104;
-        int myChallengeIntValue = 666560;
-        long myChallengeLong = (50000) + (10 * (myChallengeByte + myChallengeIntValue + myChallengeShortValue));
+        byte myChallengeByte = 10;
+        short myChallengeShortValue = 20;
+        int myChallengeIntValue = 50;
+        long myChallengeLong = (50000L) + (10L * (myChallengeByte + myChallengeIntValue + myChallengeShortValue));
 
         System.out.println("myChallenge Answer is: " + myChallengeLong);
     }
