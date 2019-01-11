@@ -15,5 +15,48 @@ public class Main {
         result = result * 10;
         System.out.println(previousResult + " * 10 = " + result);
 
+        previousResult = result;
+
+        result = result / 5;
+        System.out.println(previousResult + " / 5 = " + result);
+
+        previousResult = result;
+        result = result % 3;
+        System.out.println(previousResult + " % 3 = " + result);
+
+        previousResult = result;
+        result = result + 1;
+        System.out.println(" Result is now  " + result);
+        result++;
+        System.out.println(" Result is now  " + result);
+        result--;
+        System.out.println(" Result is now  " + result);
+        result += 2;
+        System.out.println(" Result is now  " + result);
+        result *= 10;
+        System.out.println(" Result is now  " + result);
+        result -= 10;
+        System.out.println(" Result is now  " + result);
+        result /= 10;
+        System.out.println(" Result is now  " + result);
+
+
+        boolean isAlien = false;
+
+        if (isAlien)
+            System.out.println("It is not an Alien");
+
+
+        int topScore = 100;
+        if (topScore >= 100)
+            System.out.println("You got the high score!");
+
+
+
+
+
+
+
+
+        }
     }
-}
