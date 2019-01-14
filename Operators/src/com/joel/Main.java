@@ -1,5 +1,7 @@
 package com.joel;
 
+import javax.sound.midi.Soundbank;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -47,9 +49,14 @@ public class Main {
             System.out.println("It is not an Alien");
 
 
-        int topScore = 100;
-        if (topScore >= 100)
+        int topScore = 80;
+        if (topScore < 100)
             System.out.println("You got the high score!");
+
+
+        int secondTopScore = 81;
+        if (topScore > secondTopScore && topScore < 100)
+            System.out.println("This shows up when: Greater than second top score and less than 100");
 
 
 
