@@ -58,6 +58,35 @@ public class Main {
         if ((topScore > secondTopScore) && (topScore < 100))
         System.out.println("This shows up when: Greater than second top score and less than 100");
 
+        if (( topScore > 90) || (secondTopScore <= 90))
+            System.out.println("One of these tests is true");
+
+        int newValue = 50;
+        if (newValue == 50)
+            System.out.println("This is now true");
+
+        boolean isCar = false;
+        if (isCar)
+            System.out.println("This isn't supposed to print");
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar)
+            System.out.println("wasCar is true");
+
+
+        //Challenge:
+        //1.  Create a double variable with the value 20
+        //2.  Create a second variable of the type double with the value 80
+        //3.  add both numbers up and multiply by 25
+        //4.  Use the remainder (% modulo) to figure out the remainder from the sum of #3 divided by 40
+        //5.  Write an if statement that displays a message "Total was over the limit"
+        ////    if the remaining total from #4 is >=20 (equal to or less than 20)
+
+        
+
+
+
 
 
 
