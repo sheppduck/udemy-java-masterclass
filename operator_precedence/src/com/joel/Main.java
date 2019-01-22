@@ -81,14 +81,18 @@ public class Main {
         //3.  add both numbers up and multiply by 25
         //4.  Use the remainder (% modulo) to figure out the remainder from the sum of #3 divided by 40
         //5.  Write an if statement that displays a message "Total was over the limit"
-        ////    if the remaining total from #4 is >=20 (equal to or less than 20)
-
-        
+        ////    if the remaining total from #4 is <=20 (equal to or less than 20)
 
 
+        double myDouble = 20;
+        double yourDouble = 80;
 
-
-
+        double myTotal = (myDouble + yourDouble) * 25;
+        System.out.println("myTotal is : " + myTotal);
+        double myModulo = myTotal % 40;
+        System.out.println("myModulo is: " + myModulo);
+        if (myModulo <= 20)
+            System.out.println("Total was over the limit of 20");
 
 
 
