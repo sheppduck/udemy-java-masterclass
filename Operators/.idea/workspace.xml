@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8c9956e-de24-4fdd-ac7c-22434965b7ec" name="Default Changelist" comment="">
+        s3l22-operator_precedence
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../operatorPrecedence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../operatorPrecedence/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../operatorPrecedence/src/com/joel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../operatorPrecedence/src/com/joel/Main.java" afterDir="false" />
@@ -14,7 +15,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+        s3l22-operator_precedence
     <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/joel/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -40,9 +53,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+         s3l22-operator_precedence
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
+
     </panes>
   </component>
   <component name="RunDashboard">
@@ -88,6 +103,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+          s3l22-operator_precedence
     <frame x="1388" y="23" width="1491" height="1352" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2305038" />
@@ -109,6 +125,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+         s3l22-operator_precedence
       <window_info anchor="right" id="Run" order="5" weight="0.3747412" />
     </layout>
   </component>
