@@ -7,9 +7,7 @@ public class Main {
         int score = 800;
         int levelCompleted = 5;
         int bonus = 100;
-        int newScore = 10000;
-        int level2Completed = 8;
-        int newBonus = 200;
+
 
         /*if (score == 5000) {
             System.out.println("Your score was 5000!!");
@@ -37,15 +35,9 @@ public class Main {
 //        if (gameOver) {
 //            int...
 //        }
-       //this  is the same as the == true example
+        //this  is the same as the == true example
 
-        // Challenge Code
 
-        if (gameOver == true) {
-            int finalScore2 = newScore + (level2Completed * newBonus);
-            System.out.println("Challenge: Score 2 was: " + finalScore2);
-        }
-//
 //
 //       ##################################
 //       Challenge
@@ -57,6 +49,29 @@ public class Main {
 //       make sure the first printout above also displays
 //       ###################################
 
+        // Challenge Code 0 - Better; uses more memory but is not copy/paste code
+
+        int newScore = 10000;
+        int level2Completed = 8;
+        int newBonus = 200;
+
+        if (gameOver) {
+            int finalScore2 = newScore + (level2Completed * newBonus);
+            System.out.println("Challenge: Score 2 was: " + finalScore2);
+        }
+
+
+        // Challenge Code 1 - Not great; uses less memory but is copy/paste, same variable names, etc.
+        // Not a good practice
+
+        int newScore = 10000;
+        int level2Completed = 8;
+        int newBonus = 200;
+
+        if (gameOver) {
+            int finalScore2 = newScore + (level2Completed * newBonus);
+            System.out.println("Challenge: Score 2 was: " + finalScore2);
+        }
 
 
 
