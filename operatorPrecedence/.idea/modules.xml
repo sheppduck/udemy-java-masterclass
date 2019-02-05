@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-        s3l22-operator_precedence
-      <module fileurl="file://$PROJECT_DIR$/.idea/Operators.iml" filepath="$PROJECT_DIR$/.idea/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operatorPrecedence.iml" filepath="$PROJECT_DIR$/operatorPrecedence.iml" />
     </modules>
   </component>
 </project>
